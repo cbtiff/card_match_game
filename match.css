@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.card {
+  float: left;
+  margin: 10px;
+  height: 200px;
+  width: 15%;
+  background: lightgreen;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px #ccc;
+}
+
+.card:hover {
+  cursor: pointer;
+  border: 3px solid green;
+}
+
+.card p {
+  font-size: 48px;
+  color: green;
+}
